@@ -1,0 +1,45 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header-conatiner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1rem solid grey;
+}
+
+.header-logo-title-text-container {
+  display: flex;
+}
+
+.header-title {
+  font-family: "Yellowtail", cursive;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-social-container {
+  margin-right: 1rem;
+}
+
+.header-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+}
+
+.logo {
+  margin-right: 0.5rem;
+}
+/* .icon-container {
+  display: flex;
+  justify-content: flex-end;
+} */
