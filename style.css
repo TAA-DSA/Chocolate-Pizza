@@ -11,7 +11,7 @@ body {
   justify-content: space-between;
   margin: 2rem;
   padding-bottom: 2rem;
-  border-bottom: 1rem solid grey;
+  border-bottom: 0.25rem dashed grey;
 }
 
 .header-logo-title-text-container {
@@ -39,7 +39,28 @@ body {
 .logo {
   margin-right: 0.5rem;
 }
-/* .icon-container {
+
+.blog-body-container {
+  margin: 2rem;
+}
+
+.blog-printIcon-label {
   display: flex;
-  justify-content: flex-end;
-} */
+  align-items: center;
+}
+.blog-text-image-conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+.blog-printer-logo {
+  margin-right: 0.25rem;
+}
+.blog-text {
+  font-size: 0.5em;
+  color: grey;
+}
+
+.blog-icon-label {
+  font-size: 0.5rem;
+  color: grey;
+}
