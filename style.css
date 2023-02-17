@@ -64,3 +64,25 @@ body {
   font-size: 0.5rem;
   color: grey;
 }
+
+.blog-hero-image-container {
+  margin: 2rem;
+  width: 45.75rem;
+  height: 3rem;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+
+.ingredient-container {
+  padding: 3rem;
+  background-image: url("./Assets/list-bg.png");
+  display: flex;
+  justify-content: space-between;
+}
+
+.ingredient-first-items {
+  display: flex;
+  flex-direction: column;
+}
