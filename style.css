@@ -91,3 +91,37 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.writer-image-name-description-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.writer-container {
+  padding-bottom: 2rem;
+  border-bottom: 0.15rem dashed grey;
+}
+
+button {
+  padding: 1rem;
+}
+
+.footer {
+  padding: 2.5rem;
+  color: grey;
+  font-size: 0.75rem;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-bottom-text {
+  display: flex;
+  justify-content: center;
+}
+
+.container-border-bottom {
+  padding-top: 2rem;
+  max-width: 100%;
+}
