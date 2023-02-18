@@ -87,6 +87,7 @@ body {
 }
 
 .ingredient-container {
+  color: grey;
   padding: 3rem;
   background-image: url("./Assets/list-bg.png");
   display: flex;
