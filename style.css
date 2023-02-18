@@ -75,6 +75,11 @@ body {
   max-width: 100%;
 }
 
+.blog-main-paragraph {
+  padding: 2rem 0 2rem;
+  color: grey;
+}
+
 .ingredient-container {
   padding: 3rem;
   background-image: url("./Assets/list-bg.png");
