@@ -6,12 +6,13 @@ body {
 }
 
 .header-conatiner {
+  margin: 2rem;
+}
+
+.header-container-body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 0.25rem dashed grey;
 }
 
 .header-logo-title-text-container {
@@ -20,6 +21,11 @@ body {
 
 .header-title {
   font-family: "Yellowtail", cursive;
+}
+
+.container-header-border-bottom {
+  padding-top: 1rem;
+  max-width: 100%;
 }
 
 .icon-container {
@@ -105,7 +111,10 @@ body {
 }
 
 button {
+  background-color: orangered;
+  color: #ffff;
   padding: 1rem;
+  border: none;
 }
 
 .footer {
