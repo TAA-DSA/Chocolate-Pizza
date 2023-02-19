@@ -6,7 +6,7 @@ body {
 }
 
 .header-conatiner {
-  margin: 2rem;
+  margin: 2rem 10rem 0 10rem;
 }
 
 .header-container-body {
@@ -47,7 +47,7 @@ body {
 }
 
 .blog-body-container {
-  margin: 2rem;
+  margin: 2rem 10rem 0 10rem;
 }
 
 .blog-printIcon-label {
@@ -72,7 +72,7 @@ body {
 }
 
 .blog-hero-image-container {
-  margin: 2rem;
+  margin: 2rem 10rem 0 10rem;
 
   height: 3rem;
 }
@@ -101,6 +101,13 @@ body {
   flex-direction: column;
 }
 
+.writer-container {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+  border-bottom: 0.1rem solid grey;
+}
+
 .writer-image-name-description-container {
   width: 100%;
   display: flex;
@@ -109,19 +116,15 @@ body {
   font-size: 0.75rem;
 }
 
-.writer-container {
-  display: flex;
-  align-items: center;
-  padding-bottom: 2rem;
-  border-bottom: 0.1rem solid grey;
-}
-
 .writer-name-description-container {
   padding-left: 1rem;
 }
 
 .writer-name {
   padding-bottom: 0.5rem;
+}
+.writer-description {
+  color: grey;
 }
 
 button {
